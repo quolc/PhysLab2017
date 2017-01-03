@@ -20,6 +20,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   background: #fff;
+  box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);
 
   section {
     padding: 20px 20px;
@@ -40,7 +41,7 @@ body {
 }
 
 header {
-  padding: 25px 0;
+  padding: 25px 0 0 0;
 
   .header-logo {
     margin: 0 auto;
@@ -76,7 +77,7 @@ header {
       width: 75%;
       text-align: right;
       img {
-        width: 92%;
+        width: 90%;
         vertical-align: bottom;
       }
     }
