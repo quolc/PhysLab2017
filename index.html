@@ -7,9 +7,19 @@
     <meta name="viewport" content="width=320">
     <meta name="description" content="東京大学理学部物理学科の学生展示企画PhysicsLab. 2017のウェブページです。">
     <meta name="keywords" content="東京大学,東大,理学部,物理学科,物理,理物,五月祭,学園祭,展示,2017">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+    <!-- bxSlider -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+
+    <!-- user script -->
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <div class="main-container">
+    <div class="main-container index-container">
       <header>
         <div class="header-logo">
           <a href="./index.html">
@@ -25,9 +35,20 @@
           </div>
         </div>
       </header>
+      <div class="carousel-wrapper">
+        <ul class="bxslider">
+          <li><img src="img/carousel-1_test.jpg" /></li>
+          <li><img src="img/carousel-2_test.jpg" /></li>
+          <li><img src="img/carousel-3_test.jpg" /></li>
+          <li><img src="img/carousel-4_test.jpg" /></li>
+          <li><img src="img/carousel-5_test.jpg" /></li>
+          <li><img src="img/carousel-6_test.jpg" /></li>
+        </ul>
+      </div>
       <section>
-        <h3>Section Header</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>About</h3>
+        <p><b>「PhysicsLab. 2017」</b>は東京大学理学部物理学科の学生有志による展示企画です。東京大学の学園祭、「五月祭」にて物理に関連した展示や講演、実験ショーを行います。五月祭当日は是非本郷キャンパス理学部1号館へお越しください。</p>
+        <p class="remove-touch">今回の企画ではBEC班、透明マント班、真空ゆらぎ班、超伝導班、量子情報班、計算機班、加速器班、物理ショー班の8つの班が結成され、一年近く準備をしてまいりました。各班の研究成果を通して物理に楽しく触れていただける企画を準備しています。</p>
       </section>
     </div>
     <footer>
