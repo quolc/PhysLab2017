@@ -10,7 +10,31 @@
   .remove-touch {
     display: none; } }
 
+@media screen and (min-width: 640px) {
+  .remove-pc {
+    display: none; } }
+
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 0;
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13pt;
+  color: #fff;
+  background: #333;
+  transition-property: background,color;
+  transition-duration: 0.3s; }
+
+.button:hover {
+  background-color: #c32b7f; }
+
 /* contents */
+iframe {
+  display: block; }
+
 body {
   margin: 40px 0 0 0;
   background: #f0f0f0;
@@ -46,7 +70,7 @@ body {
   .fixed-nav a {
     display: inline-block;
     height: 100%;
-    padding: 0 10px;
+    padding: 0 8px;
     box-sizing: border-box;
     text-decoration: none;
     line-height: 40px;
