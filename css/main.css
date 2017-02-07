@@ -70,11 +70,16 @@ body {
   .fixed-nav a {
     display: inline-block;
     height: 100%;
-    padding: 0 8px;
     box-sizing: border-box;
     text-decoration: none;
     line-height: 40px;
     color: #555; }
+    @media screen and (min-width: 640px) {
+      .fixed-nav a {
+        padding: 0 10px; } }
+    @media screen and (max-width: 639px) {
+      .fixed-nav a {
+        padding: 0 5px; } }
     .fixed-nav a:hover, .fixed-nav a.active {
       border-bottom: solid 2px #c32b7f;
       color: #c32b7f;
@@ -169,5 +174,26 @@ footer {
     margin: 0; }
   .index-container .carousel-wrapper img {
     vertical-align: bottom; }
+.index-container .updates {
+  margin: 0 auto;
+  max-width: 800px; }
+  @media screen and (min-width: 640px) {
+    .index-container .updates {
+      padding: 20px 50px 0px; } }
+  @media screen and (max-width: 639px) {
+    .index-container .updates {
+      padding: 15px 20px 0px; } }
+  .index-container .updates h4 {
+    margin: 0 0 10px; }
+    @media screen and (min-width: 640px) {
+      .index-container .updates h4 {
+        font-size: 13pt; } }
+    @media screen and (max-width: 639px) {
+      .index-container .updates h4 {
+        font-size: 11pt; } }
+  .index-container .updates ul {
+    margin: 0; }
+    .index-container .updates ul li {
+      margin-bottom: 2px; }
 
 /*# sourceMappingURL=main.css.map */
