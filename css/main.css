@@ -172,8 +172,40 @@ footer {
   .index-container .carousel-wrapper ul {
     padding: 0;
     margin: 0; }
-  .index-container .carousel-wrapper img {
+  .index-container .carousel-wrapper li img {
     vertical-align: bottom; }
+  .index-container .carousel-wrapper li span {
+    display: block;
+    position: absolute;
+    padding: 0 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transform: translate(-50%, -50%); }
+    @media screen and (min-width: 640px) {
+      .index-container .carousel-wrapper li span {
+        font-size: 24pt; } }
+    @media screen and (max-width: 639px) {
+      .index-container .carousel-wrapper li span {
+        font-size: 14pt; } }
+    .index-container .carousel-wrapper li span#carousel-text-a {
+      top: 50%;
+      left: 50%; }
+    .index-container .carousel-wrapper li span#carousel-text-b {
+      top: 50%;
+      left: 50%; }
+    .index-container .carousel-wrapper li span#carousel-text-c {
+      top: 50%;
+      left: 50%; }
+    .index-container .carousel-wrapper li span#carousel-text-d {
+      top: 50%;
+      left: 50%; }
+    .index-container .carousel-wrapper li span#carousel-text-e {
+      top: 50%;
+      left: 50%; }
+    .index-container .carousel-wrapper li span#carousel-text-f {
+      top: 50%;
+      left: 50%; }
 .index-container .updates {
   margin: 0 auto;
   max-width: 800px; }
@@ -192,7 +224,8 @@ footer {
       .index-container .updates h4 {
         font-size: 11pt; } }
   .index-container .updates ul {
-    margin: 0; }
+    margin: 0;
+    padding-left: 20px; }
     .index-container .updates ul li {
       margin-bottom: 2px; }
 
