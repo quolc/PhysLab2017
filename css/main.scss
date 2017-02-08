@@ -34,17 +34,15 @@ $nav-height: 40px;
   background: #333;
   transition-property: background,color;
   transition-duration: 0.3s;
+  &:hover {
+    background-color: #c32b7f;
+  }
 }
 .buttons-row {
   display: flex;
   margin: 0 auto;
   max-width: 640px;
 }
-
-.button:hover {
-  background-color: #c32b7f;
-}
-
 /* contents */
 iframe {
   display: block;
@@ -327,6 +325,90 @@ footer {
   }
   .staff-item {
     h4 {
+    }
+  }
+}
+
+.exhibition-container {
+  .group {
+    @media screen and (min-width: 640px) {
+      margin: 5px auto 20px;
+      max-width: 720px;
+      padding: 15px;
+    }
+    @media screen and (max-width: 639px) {
+      margin: 5px 10px 15px;
+    }
+    position: relative;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.15);
+
+    background: #f0f0f0;
+    border-radius: 5px;
+    .group-image {
+      img {
+        @media screen and (min-width: 640px) {
+          width: 240px;
+          height: 240px;
+          border-radius: 5px;
+        }
+        @media screen and (max-width: 639px) {
+          display: none;
+        }
+      }
+    }
+    .group-body {
+      @media screen and (min-width: 640px) {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 15px 15px 0 275px;
+      }
+      @media screen and (max-width: 639px) {
+        padding: 10px 15px;
+      }
+
+      h3 {
+        @media screen and (min-width: 640px) {
+          font-size: 18pt;
+        }
+        @media screen and (max-width: 639px) {
+          font-size: 13pt;
+        }
+        margin: 0;
+        border-bottom: solid 1px #999;
+      }
+      p {
+        @media screen and (min-width: 640px) {
+          font-size: 11pt;
+        }
+      }
+      .detail-button {
+        display: block;
+        border-radius: 5px;
+        @media screen and (min-width: 640px) {
+          margin: 10px auto;
+          padding: 8px 0;
+          width: 200px;
+          font-size: 14pt;
+        }
+        @media screen and (max-width: 639px) {
+          margin: 5px auto;
+          padding: 6px 0;
+          width: 160px;
+          font-size: 12pt;
+        }
+
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background: #333;
+
+        transition-property: background,color;
+        transition-duration: 0.3s;
+        &:hover {
+          background-color: #3997f7;
+        }
+      }
     }
   }
 }
