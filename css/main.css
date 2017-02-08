@@ -316,4 +316,9 @@ footer {
     .exhibition-container .group .group-body .detail-button:hover {
       background-color: #3997f7; }
 
+.access-container #googlemap-embed {
+  padding: 20px 0; }
+  .access-container #googlemap-embed iframe {
+    margin: 0px auto; }
+
 /*# sourceMappingURL=main.css.map */
