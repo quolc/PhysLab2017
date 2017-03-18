@@ -173,6 +173,12 @@ header {
       header .header-info .header-info-right img {
         width: 90%;
         vertical-align: bottom; }
+  header .header-social p {
+    text-align: center; }
+    header .header-social p a {
+      margin: 0 8px; }
+      header .header-social p a img {
+        height: 30px; }
 
 footer {
   padding: 8px 0;
