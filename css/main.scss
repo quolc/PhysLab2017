@@ -161,7 +161,7 @@ body {
       font-size: 12pt;
     }
     p {
-      margin: 6px auto 0;
+      margin: 10px auto 0;
       max-width: 720px;
       text-indent: 12px;
     }
@@ -406,7 +406,7 @@ footer {
         display: block;
         border-radius: 5px;
         @media screen and (min-width: 640px) {
-          margin: 10px auto;
+          margin: 5px auto;
           padding: 8px 0;
           width: 200px;
           font-size: 14pt;
@@ -439,5 +439,18 @@ footer {
     iframe {
       margin: 0px auto;
     }
+  }
+}
+
+.theme-container {
+  .theme-teaser {
+    display: block;
+    width: 80%;
+    margin: 15px auto 10px;
+  }
+  img {
+    width: 75%;
+    margin: 15px auto;
+    display: block;
   }
 }
