@@ -341,4 +341,9 @@ footer {
   margin: 15px auto;
   display: block; }
 
+.presentation-container table {
+  margin: 10px auto; }
+  .presentation-container table td {
+    padding: 5px 20px; }
+
 /*# sourceMappingURL=main.css.map */
